@@ -82,4 +82,5 @@ def main(screen):
 	curses.echo()       # Turn echo back on
 	curses.curs_set(1)  # Turn cursor back on
 
+# Use wrapper for better initialisation and cleanup
 curses.wrapper(main)
