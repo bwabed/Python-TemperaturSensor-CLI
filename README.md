@@ -17,5 +17,6 @@ Wiring can be done using a breadboard as seen in the image below. It can also be
 *Imagesource: [learn.adafruit.com](https://learn.adafruit.com/adafruit-bme280-humidity-barometric-pressure-temperature-sensor-breakout/python-circuitpython-test)*
 
 ![GPIO pins](images/GPIO-Pinout-Diagram-2.png)
+*Imagesource: [raspberrypi.org](https://www.raspberrypi.org/documentation/usage/gpio/)*
 
 ## Usage
