@@ -68,12 +68,13 @@ def main(screen):
 		screen.addstr("%0.1f hPa\n" % bme280.pressure, curses.color_pair(2))
 		screen.addstr("Altitude = ")
 		screen.addstr(" %0.2f meters" % bme280.altitude, curses.color_pair(2))
-
-		# Wait for 1 second
-		curses.napms(1000)
 		
 		# Refresh screen to show data
 		screen.refresh()
+		
+		# Wait for 1 second
+		curses.napms(1000)
+
 
 	curses.nocbreak()   # Turn off cbreak mode
 	curses.echo()       # Turn echo back on
