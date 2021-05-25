@@ -72,6 +72,7 @@ def main(screen):
 		# Refresh screen to show data
 		screen.refresh()
 		
+		# Check for key press for faster exit
 		if not key_pressed:
 			# Wait for 1 second
 			curses.napms(1000)
