@@ -15,4 +15,6 @@ Wiring can be done using a breadboard as seen in the image below. It can also be
 
 ![Wiring for raspi](https://cdn-learn.adafruit.com/assets/assets/000/097/132/original/adafruit_products_BME280_RasPi_SPI_original.png?1605727339)
 
+![GPIO pins](images/GPIO-Pinout-Diagram-2.png)
+
 ## Usage
