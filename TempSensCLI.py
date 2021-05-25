@@ -72,8 +72,9 @@ def main(screen):
 		# Refresh screen to show data
 		screen.refresh()
 		
-		# Wait for 1 second
-		curses.napms(1000)
+		if not key_pressed:
+			# Wait for 1 second
+			curses.napms(1000)
 
 
 	curses.nocbreak()   # Turn off cbreak mode
