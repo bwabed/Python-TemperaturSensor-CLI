@@ -2,7 +2,7 @@
 
 ## Dependencies
 
-
+[Python adafruit](https://learn.adafruit.com/adafruit-bme280-humidity-barometric-pressure-temperature-sensor-breakout/python-circuitpython-test)
 
 ## Installation
 
